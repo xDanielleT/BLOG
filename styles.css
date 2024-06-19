@@ -177,13 +177,13 @@ body {
 
 .welcome-image {
     flex: 1;
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
     height: auto;
 
 }
 
-img {
+img, figcaption {
     animation-duration: 3s;
     animation-name: slidein;
 }
@@ -200,6 +200,16 @@ img {
     }
 }
 
+.figure-number{
+    font-style: italic;
+}
+
+figcaption{
+    width: 200px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    font-style: italic;
+}
 .card-image{
     animation-duration: 5s;
     animation-name: slidein;
