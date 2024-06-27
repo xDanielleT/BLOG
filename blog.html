@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- <link rel="stylesheet" href="../css/main.css" /> -->
+
+    <title>Blog Home Page</title>
 </head>
 
 <img src="assets/img/banner.jpg" alt="Banner Image" class="banner-image">
@@ -17,8 +18,8 @@
         <h1>My DIY Coding Blog</h1>
         <nav class="nav bar">
             <ul>
-                <li><a href="#welcome">Welcome</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a href="blog.html">Welcome</a></li>
+                <li><a href="post.html">Blog</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#comment">Leave a Comment</a></li>
             </ul>
@@ -47,11 +48,15 @@
                     </p>
                 </div>
 
-                <img src="assets/img/splineAvatar2.png" alt="Welcome Image" class="welcome-image">
+                
 
-                <figcaption>
-                    <b class="figure-number"> Figure 1.</b> This avatar was created in a application called Spline Design. 
-                </figcaption>
+                <figure>
+                    <figcaption>
+                    <img src="assets/img/splineAvatar2.png" alt="Welcome Image" class="welcome-image">
+                        <b class="figure-number"> Figure 1.</b> This avatar was created in a application called Spline
+                        Design.
+                    </figcaption>
+                </figure>
             </div>
         </section>
 
@@ -60,24 +65,26 @@
             <div class="cards">
                 <div class="card">
                     <img src="https://picsum.photos/100" alt="Card 1 Image" class="card-image">
-                    <h3>Lorem 1</h3>
-                    <p>This is the content of the first card, which is Lorem Picsum similar to lorem ipsum, except it's photos. It can be a brief description or a summary.</p>
+                    <h3><a href="post.html">Lorem 1</a></h3>
+                    <p>This is the content of the first card, which is Lorem Picsum similar to lorem ipsum, except it's
+                        photos.</p>
                 </div>
                 <div class="card">
                     <img src="assets/img/splineAvatar2.png" alt="Card 2 Image" class="card-image">
                     <h3>Spline</h3>
-                    <p>This is my first time learning Spline! This avatar was super fun and challenging! I don't have full animation to this image yet, but in due time!</p>
+                    <p>This is my first time learning Spline! This avatar was super fun and challenging! I don't have
+                        full animation to this image yet, but in due time!</p>
                 </div>
                 <div class="card">
                     <img src="https://picsum.photos/100" alt="Card 3 Image" class="card-image">
                     <h3>Picsum 3</h3>
-                    <p>This is the content of the third card, which is a Lorem Picsum similar to lorem ipsum. I will updates these cards as I progress.</p>
+                    <p>This is the content of the third card, which is a Lorem Picsum similar to lorem ipsum. I will
+                        updates these cards as I progress.</p>
                 </div>
             </div>
         </div>
 
         <div id="about" class="about">
-            <!-- <img src="path-to-your-profile-image.jpg" alt="Profile Image" class="profile-image"> -->
             <h2>About Me</h2>
             <p>
                 Thank you for visiting my blog!! <br>
@@ -88,14 +95,14 @@
                 this journey as I share my progress, projects, and insights into frontend web development.
 
                 <br>
-                I appreciate your feedback!I appreciate your feedback! Please leave comments, suggestions, or
+                I appreciate your feedback! Please leave comments, suggestions, or
                 questions. Your input is appreciated to me as I continue to learn and grow.
             </p>
         </div>
 
         <section id="comment">
             <h2>Leave a Comment</h2>
-            
+
             <form action="https://formspree.io/f/xqazzzew" method="POST">
                 <label>
                     Your email:
@@ -105,7 +112,6 @@
                     Your message:
                     <textarea name="message"></textarea>
                 </label>
-                <!-- your other form fields go here -->
                 <button type="submit" id="button">Send</button>
             </form>
         </section>
