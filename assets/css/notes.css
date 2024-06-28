@@ -1,0 +1,50 @@
+@import url('post.css');
+@import url('typography.css');
+
+#comment {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+form .form-group {
+
+    min-width: 250px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #534590;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 20px ;
+    width: auto;
+    height: auto;
+    font: caption bold 16px cursive;
+    text-align: center;
+}
+
+
+form button:hover {
+    background-color: #ddd;
+    color: #333;
+}

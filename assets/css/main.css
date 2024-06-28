@@ -1,5 +1,7 @@
-@import url('main.css');
+/* @import url('main.css'); */
+@import url('post.css');
 @import url('typography.css');
+@import url('notes.css');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
 
 body {
@@ -304,56 +306,6 @@ figcaption {
     transition: 0.3s;
     border-radius: 5px;
     padding: 20px;
-}
-
-#comment {
-    padding: 20px;
-}
-
-form {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-
-form .form-group {
-
-    min-width: 250px;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-form button {
-    background-color: #534590;
-    color: white;
-    padding: 20px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    /* width: 100%;
-    max-width: 200px; */
-    display: block;
-    margin: auto 0;
-    width: 25px;
-    height: 20px;
-    font: caption bold 16px/2 cursive;
-    text-align: center;
-}
-
-
-form button:hover {
-    background-color: #ddd;
-    color: #333;
 }
 
 @media (max-width: 768px) {
